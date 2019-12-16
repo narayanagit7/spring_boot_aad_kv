@@ -3,7 +3,7 @@
 #
 # Which AAD Tenant is the web app living in?
 #
-export AAD_TENANT_ID="chgeuerfte.onmicrosoft.com"
+export AAD_TENANT_ID="narayanam.onmicrosoft.com"
 
 #
 # Which Data Center
@@ -25,7 +25,7 @@ echo "Using Azure AD tenant ${AAD_TENANT_ID}, deploying to resource group ${rg_n
 #
 # The Azure AD group which users must be in, to access the web app.
 #
-export AAD_GROUP="christian"
+export AAD_GROUP="test"
 
 #
 # Various names for resources
